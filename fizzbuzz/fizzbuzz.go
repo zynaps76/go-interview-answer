@@ -7,7 +7,6 @@ import (
 const (
 	Fizz = "Fizz"
 	Buzz = "Buzz"
-	FizzBuzz = Fizz + Buzz
 )
 
 func fizzbuzz(i int) string {

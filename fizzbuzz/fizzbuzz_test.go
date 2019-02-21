@@ -2,6 +2,10 @@ package main
 
 import "testing"
 
+const (
+	FizzBuzz = Fizz + Buzz
+)
+
 func TestFizzBuzz(t *testing.T) {
 	payload := map[int]string{
 		1:  "1",
