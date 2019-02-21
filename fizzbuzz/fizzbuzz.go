@@ -10,14 +10,14 @@ const (
 )
 
 func fizzbuzz(i int) string {
-	divThree := i%3 == 0
-	divFive := i%5 == 0
+	fizz := i%3 == 0
+	buzz := i%5 == 0
 
-	if divThree && divFive {
+	if fizz && buzz {
 		return Fizz + Buzz
-	} else if divThree {
+	} else if fizz {
 		return Fizz
-	} else if divFive {
+	} else if buzz {
 		return Buzz
 	}
 
