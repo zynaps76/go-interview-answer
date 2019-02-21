@@ -6,5 +6,4 @@
 
 ```
 BenchmarkFizzBuzz-4   	50000000	        31.3 ns/op	       4 B/op	       0 allocs/op
-PASS
 ```
