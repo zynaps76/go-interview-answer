@@ -12,10 +12,10 @@ const (
 func fizzbuzz(i int) string {
 	result := ""
 
-	divFree := i%3 == 0
+	divThree := i%3 == 0
 	divFive := i%5 == 0
 
-	if divFree  {
+	if divThree  {
 		result = result + Fizz
 	}
 
@@ -23,7 +23,7 @@ func fizzbuzz(i int) string {
 		result = result + Buzz
 	}
 
-	if !divFree && !divFive {
+	if !divThree && !divFive {
 		result = strconv.Itoa(i)
 	}
 
