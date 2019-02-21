@@ -5,7 +5,7 @@
 # Бенчмарк
 
 ```
-BenchmarkFizzBuzz-4   	50000000	        31.0 ns/op	       4 B/op	       0 allocs/op
+BenchmarkFizzBuzz-4   	100000000	        21.9 ns/op	       4 B/op	       0 allocs/op
 ```
 
 # Результат
