@@ -4,14 +4,13 @@ import (
 	"errors"
 )
 
-func bubbleSort(slice []byte) []byte {
+func bubbleSort(slice []byte) {
 	for y := range slice {
 		i, _ := findMax(slice[y:])
 
+		// swap
 		slice[y], slice[i+y] = slice[i+y], slice[y]
 	}
-
-	return slice
 }
 
 func findMax(slice []byte) (int, error) {
